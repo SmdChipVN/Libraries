@@ -1,0 +1,11 @@
+C:\Users\jfavl\OneDrive\Libraries\C#\LiesTool\USBTester\bin\Debug\USBTester.exe
+C:\Users\jfavl\OneDrive\Libraries\C#\LiesTool\USBTester\bin\Debug\USBTester.pdb
+C:\Users\jfavl\OneDrive\Libraries\C#\LiesTool\USBTester\bin\Debug\USB.dll
+C:\Users\jfavl\OneDrive\Libraries\C#\LiesTool\USBTester\obj\Debug\USBTester.csproj.AssemblyReference.cache
+C:\Users\jfavl\OneDrive\Libraries\C#\LiesTool\USBTester\obj\Debug\USBTester.Form1.resources
+C:\Users\jfavl\OneDrive\Libraries\C#\LiesTool\USBTester\obj\Debug\USBTester.Properties.Resources.resources
+C:\Users\jfavl\OneDrive\Libraries\C#\LiesTool\USBTester\obj\Debug\USBTester.csproj.GenerateResource.cache
+C:\Users\jfavl\OneDrive\Libraries\C#\LiesTool\USBTester\obj\Debug\USBTester.csproj.CoreCompileInputs.cache
+C:\Users\jfavl\OneDrive\Libraries\C#\LiesTool\USBTester\obj\Debug\USBTester.csproj.CopyComplete
+C:\Users\jfavl\OneDrive\Libraries\C#\LiesTool\USBTester\obj\Debug\USBTester.exe
+C:\Users\jfavl\OneDrive\Libraries\C#\LiesTool\USBTester\obj\Debug\USBTester.pdb

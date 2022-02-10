@@ -1,0 +1,13 @@
+"D:\IAR_ARM\arm\bin\armproc.dll" 
+
+"D:\IAR_ARM\arm\bin\armsim2.dll" 
+
+"C:\Users\Admin\OneDrive\Libraries\C&C++\embedded_C99\Microcontroler\STM32F10x\test_lib\stm32f103c8t6\Debug\Exe\tets.out" 
+
+--plugin="D:\IAR_ARM\arm\bin\armbat.dll" 
+
+--device_macro="D:\IAR_ARM\arm\config\debugger\ST\STM32F1xx.dmac" 
+
+
+
+

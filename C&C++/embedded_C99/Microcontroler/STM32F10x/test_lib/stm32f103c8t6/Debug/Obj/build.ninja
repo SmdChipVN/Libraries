@@ -1,0 +1,38 @@
+#Generating source browse information for project tets
+
+
+#Abbreviations
+cc = D$:\IAR_ARM\common\bin\SourceIndexer.exe
+ll = D$:\IAR_ARM\common\bin\PbdLink.exe
+bd = D$:\IAR_ARM\common\bin\makeBrowseData.exe
+
+
+
+#Rules
+rule index
+  depfile = $out.dep
+  command = $cc -out=$out -f $in
+rule link
+  command = $ll -M $out $in
+rule browsedata
+  command = $bd $in -output  $out
+
+
+
+#Build steps
+build button_0.pbi : index button_0.xcl
+build button_1.pbi : index button_1.xcl
+build button_2.pbi : index button_2.xcl
+build button_3.pbi : index button_3.xcl
+build button_4.pbi : index button_4.xcl
+build button_5.pbi : index button_5.xcl
+build button_6.pbi : index button_6.xcl
+build button_7.pbi : index button_7.xcl
+build main.pbi : index main.xcl
+build tets_part0.pbi : link button_0.pbi button_1.pbi button_2.pbi
+build tets_part1.pbi : link button_3.pbi button_4.pbi button_5.pbi
+build tets_part2.pbi : link button_6.pbi button_7.pbi main.pbi
+build tets.pbd : link tets_part0.pbi tets_part1.pbi tets_part2.pbi
+build tets.pbw : browsedata tets.pbd
+
+

@@ -1,0 +1,450 @@
+[
+  {
+    "ID": "c:button_1.c@214@macro@__declare_button",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "__declare_button",
+    "location": {
+      "column": "9",
+      "line": "4",
+      "path": "C:\\Users\\Admin\\OneDrive\\Libraries\\C&C++\\embedded_C99\\Microcontroler\\1_Application\\button\\button_1.c"
+    },
+    "name": "__declare_button",
+    "origin": "project_file",
+    "scope": null
+  },
+  {
+    "ID": "c:button_1.c@256@macro@__declare_read_button",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "__declare_read_button",
+    "location": {
+      "column": "9",
+      "line": "5",
+      "path": "C:\\Users\\Admin\\OneDrive\\Libraries\\C&C++\\embedded_C99\\Microcontroler\\1_Application\\button\\button_1.c"
+    },
+    "name": "__declare_read_button",
+    "origin": "project_file",
+    "scope": null
+  },
+  {
+    "ID": "c:button_1.c@298@macro@__declare_number_of_button",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "__declare_number_of_button",
+    "location": {
+      "column": "9",
+      "line": "6",
+      "path": "C:\\Users\\Admin\\OneDrive\\Libraries\\C&C++\\embedded_C99\\Microcontroler\\1_Application\\button\\button_1.c"
+    },
+    "name": "__declare_number_of_button",
+    "origin": "project_file",
+    "scope": null
+  },
+  {
+    "ID": "c:button_1.c@340@macro@__declare_reduce_noise_button",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "__declare_reduce_noise_button",
+    "location": {
+      "column": "9",
+      "line": "7",
+      "path": "C:\\Users\\Admin\\OneDrive\\Libraries\\C&C++\\embedded_C99\\Microcontroler\\1_Application\\button\\button_1.c"
+    },
+    "name": "__declare_reduce_noise_button",
+    "origin": "project_file",
+    "scope": null
+  },
+  {
+    "ID": "c:button_1.c@382@macro@__declare_press_time_button",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "__declare_press_time_button",
+    "location": {
+      "column": "9",
+      "line": "8",
+      "path": "C:\\Users\\Admin\\OneDrive\\Libraries\\C&C++\\embedded_C99\\Microcontroler\\1_Application\\button\\button_1.c"
+    },
+    "name": "__declare_press_time_button",
+    "origin": "project_file",
+    "scope": null
+  },
+  {
+    "ID": "c:button_1.c@426@macro@__button",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "__button",
+    "location": {
+      "column": "9",
+      "line": "10",
+      "path": "C:\\Users\\Admin\\OneDrive\\Libraries\\C&C++\\embedded_C99\\Microcontroler\\1_Application\\button\\button_1.c"
+    },
+    "name": "__button",
+    "origin": "project_file",
+    "scope": null
+  },
+  {
+    "ID": "c:button_1.c@488@macro@__read_button",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "__read_button",
+    "location": {
+      "column": "9",
+      "line": "11",
+      "path": "C:\\Users\\Admin\\OneDrive\\Libraries\\C&C++\\embedded_C99\\Microcontroler\\1_Application\\button\\button_1.c"
+    },
+    "name": "__read_button",
+    "origin": "project_file",
+    "scope": null
+  },
+  {
+    "ID": "c:button_1.c@553@macro@__number_of_button",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "__number_of_button",
+    "location": {
+      "column": "9",
+      "line": "12",
+      "path": "C:\\Users\\Admin\\OneDrive\\Libraries\\C&C++\\embedded_C99\\Microcontroler\\1_Application\\button\\button_1.c"
+    },
+    "name": "__number_of_button",
+    "origin": "project_file",
+    "scope": null
+  },
+  {
+    "ID": "c:button_1.c@611@macro@__reduce_noise_button",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "__reduce_noise_button",
+    "location": {
+      "column": "9",
+      "line": "13",
+      "path": "C:\\Users\\Admin\\OneDrive\\Libraries\\C&C++\\embedded_C99\\Microcontroler\\1_Application\\button\\button_1.c"
+    },
+    "name": "__reduce_noise_button",
+    "origin": "project_file",
+    "scope": null
+  },
+  {
+    "ID": "c:button_1.c@672@macro@__press_time_button",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "__press_time_button",
+    "location": {
+      "column": "9",
+      "line": "14",
+      "path": "C:\\Users\\Admin\\OneDrive\\Libraries\\C&C++\\embedded_C99\\Microcontroler\\1_Application\\button\\button_1.c"
+    },
+    "name": "__press_time_button",
+    "origin": "project_file",
+    "scope": null
+  },
+  {
+    "ID": "c:button_1.c@731@macro@__for_button",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "__for_button",
+    "location": {
+      "column": "9",
+      "line": "15",
+      "path": "C:\\Users\\Admin\\OneDrive\\Libraries\\C&C++\\embedded_C99\\Microcontroler\\1_Application\\button\\button_1.c"
+    },
+    "name": "__for_button",
+    "origin": "project_file",
+    "scope": null
+  },
+  {
+    "ID": "c:@Buttons",
+    "What": "Variable",
+    "defdec": "Dec",
+    "display": "Buttons",
+    "location": {
+      "column": "33",
+      "line": "17",
+      "path": "C:\\Users\\Admin\\OneDrive\\Libraries\\C&C++\\embedded_C99\\Microcontroler\\1_Application\\button\\button_1.c"
+    },
+    "name": "Buttons",
+    "origin": "project_file",
+    "scope": null
+  },
+  {
+    "ID": "c:@F@ReadButton",
+    "What": "Function",
+    "defdec": "Dec",
+    "display": "unsigned char ReadButton(unsigned char)",
+    "location": {
+      "column": "15",
+      "line": "18",
+      "path": "C:\\Users\\Admin\\OneDrive\\Libraries\\C&C++\\embedded_C99\\Microcontroler\\1_Application\\button\\button_1.c"
+    },
+    "name": "ReadButton",
+    "origin": "project_file",
+    "scope": null
+  },
+  {
+    "ID": "c:button_1.c@__count_reduce_button",
+    "What": "Variable",
+    "defdec": "Dec",
+    "display": "__count_reduce_button",
+    "location": {
+      "column": "32",
+      "line": "19",
+      "path": "C:\\Users\\Admin\\OneDrive\\Libraries\\C&C++\\embedded_C99\\Microcontroler\\1_Application\\button\\button_1.c"
+    },
+    "name": "__count_reduce_button",
+    "origin": "project_file",
+    "scope": null
+  },
+  {
+    "ID": "c:@F@Button_Begin_1",
+    "What": "Function",
+    "defdec": "Def",
+    "display": "void Button_Begin_1(void)",
+    "location": {
+      "column": "6",
+      "line": "21",
+      "path": "C:\\Users\\Admin\\OneDrive\\Libraries\\C&C++\\embedded_C99\\Microcontroler\\1_Application\\button\\button_1.c"
+    },
+    "name": "Button_Begin_1",
+    "origin": "project_file",
+    "scope": null
+  },
+  {
+    "ID": "c:@F@Button_Process_1",
+    "What": "Function",
+    "defdec": "Def",
+    "display": "void Button_Process_1(void)",
+    "location": {
+      "column": "6",
+      "line": "34",
+      "path": "C:\\Users\\Admin\\OneDrive\\Libraries\\C&C++\\embedded_C99\\Microcontroler\\1_Application\\button\\button_1.c"
+    },
+    "name": "Button_Process_1",
+    "origin": "project_file",
+    "scope": null
+  },
+  {
+    "ID": "c:@F@Button_ProcessIndex_1",
+    "What": "Function",
+    "defdec": "Def",
+    "display": "unsigned char Button_ProcessIndex_1(unsigned char, unsigned char)",
+    "location": {
+      "column": "15",
+      "line": "72",
+      "path": "C:\\Users\\Admin\\OneDrive\\Libraries\\C&C++\\embedded_C99\\Microcontroler\\1_Application\\button\\button_1.c"
+    },
+    "name": "Button_ProcessIndex_1",
+    "origin": "project_file",
+    "scope": null
+  },
+  {
+    "ID": "c:@F@Button_Press_1",
+    "What": "Function",
+    "defdec": "Def",
+    "display": "unsigned char Button_Press_1(unsigned char)",
+    "location": {
+      "column": "15",
+      "line": "106",
+      "path": "C:\\Users\\Admin\\OneDrive\\Libraries\\C&C++\\embedded_C99\\Microcontroler\\1_Application\\button\\button_1.c"
+    },
+    "name": "Button_Press_1",
+    "origin": "project_file",
+    "scope": null
+  },
+  {
+    "ID": "c:@F@Button_Check_1",
+    "What": "Function",
+    "defdec": "Def",
+    "display": "unsigned char Button_Check_1(unsigned char, int, unsigned char)",
+    "location": {
+      "column": "15",
+      "line": "117",
+      "path": "C:\\Users\\Admin\\OneDrive\\Libraries\\C&C++\\embedded_C99\\Microcontroler\\1_Application\\button\\button_1.c"
+    },
+    "name": "Button_Check_1",
+    "origin": "project_file",
+    "scope": null
+  },
+  {
+    "ID": "c:@F@Button_Hold_1",
+    "What": "Function",
+    "defdec": "Def",
+    "display": "unsigned char Button_Hold_1(unsigned char, unsigned char, unsigned char)",
+    "location": {
+      "column": "15",
+      "line": "128",
+      "path": "C:\\Users\\Admin\\OneDrive\\Libraries\\C&C++\\embedded_C99\\Microcontroler\\1_Application\\button\\button_1.c"
+    },
+    "name": "Button_Hold_1",
+    "origin": "project_file",
+    "scope": null
+  },
+  {
+    "ID": "c:@F@Button_HoldAccel_1",
+    "What": "Function",
+    "defdec": "Def",
+    "display": "unsigned char Button_HoldAccel_1(unsigned char, int *)",
+    "location": {
+      "column": "15",
+      "line": "146",
+      "path": "C:\\Users\\Admin\\OneDrive\\Libraries\\C&C++\\embedded_C99\\Microcontroler\\1_Application\\button\\button_1.c"
+    },
+    "name": "Button_HoldAccel_1",
+    "origin": "project_file",
+    "scope": null
+  },
+  {
+    "ID": "c:@F@Button_SetStatus_1",
+    "What": "Function",
+    "defdec": "Def",
+    "display": "void Button_SetStatus_1(unsigned char, int, unsigned char)",
+    "location": {
+      "column": "6",
+      "line": "166",
+      "path": "C:\\Users\\Admin\\OneDrive\\Libraries\\C&C++\\embedded_C99\\Microcontroler\\1_Application\\button\\button_1.c"
+    },
+    "name": "Button_SetStatus_1",
+    "origin": "project_file",
+    "scope": null
+  },
+  {
+    "ID": "c:@Button",
+    "What": "Variable",
+    "defdec": "Dec",
+    "display": "Button",
+    "location": {
+      "column": "33",
+      "line": "4",
+      "path": "C:\\Users\\Admin\\OneDrive\\Libraries\\C&C++\\embedded_C99\\Microcontroler\\1_Application\\button\\button_0.c"
+    },
+    "name": "Button",
+    "origin": "project_file",
+    "scope": null
+  },
+  {
+    "ID": "c:button_0.c@count_reduce_noise",
+    "What": "Variable",
+    "defdec": "Dec",
+    "display": "count_reduce_noise",
+    "location": {
+      "column": "32",
+      "line": "5",
+      "path": "C:\\Users\\Admin\\OneDrive\\Libraries\\C&C++\\embedded_C99\\Microcontroler\\1_Application\\button\\button_0.c"
+    },
+    "name": "count_reduce_noise",
+    "origin": "project_file",
+    "scope": null
+  },
+  {
+    "ID": "c:@F@Button_Begin_0",
+    "What": "Function",
+    "defdec": "Def",
+    "display": "void Button_Begin_0(void)",
+    "location": {
+      "column": "6",
+      "line": "7",
+      "path": "C:\\Users\\Admin\\OneDrive\\Libraries\\C&C++\\embedded_C99\\Microcontroler\\1_Application\\button\\button_0.c"
+    },
+    "name": "Button_Begin_0",
+    "origin": "project_file",
+    "scope": null
+  },
+  {
+    "ID": "c:@F@Button_Process_0",
+    "What": "Function",
+    "defdec": "Def",
+    "display": "void Button_Process_0(void)",
+    "location": {
+      "column": "6",
+      "line": "13",
+      "path": "C:\\Users\\Admin\\OneDrive\\Libraries\\C&C++\\embedded_C99\\Microcontroler\\1_Application\\button\\button_0.c"
+    },
+    "name": "Button_Process_0",
+    "origin": "project_file",
+    "scope": null
+  },
+  {
+    "ID": "c:@F@Button_Press_0",
+    "What": "Function",
+    "defdec": "Def",
+    "display": "unsigned char Button_Press_0(void)",
+    "location": {
+      "column": "15",
+      "line": "41",
+      "path": "C:\\Users\\Admin\\OneDrive\\Libraries\\C&C++\\embedded_C99\\Microcontroler\\1_Application\\button\\button_0.c"
+    },
+    "name": "Button_Press_0",
+    "origin": "project_file",
+    "scope": null
+  },
+  {
+    "ID": "c:@F@Button_Check_0",
+    "What": "Function",
+    "defdec": "Def",
+    "display": "unsigned char Button_Check_0(int, unsigned char)",
+    "location": {
+      "column": "15",
+      "line": "50",
+      "path": "C:\\Users\\Admin\\OneDrive\\Libraries\\C&C++\\embedded_C99\\Microcontroler\\1_Application\\button\\button_0.c"
+    },
+    "name": "Button_Check_0",
+    "origin": "project_file",
+    "scope": null
+  },
+  {
+    "ID": "c:@F@Button_Hold_0",
+    "What": "Function",
+    "defdec": "Def",
+    "display": "unsigned char Button_Hold_0(unsigned char, unsigned char)",
+    "location": {
+      "column": "15",
+      "line": "60",
+      "path": "C:\\Users\\Admin\\OneDrive\\Libraries\\C&C++\\embedded_C99\\Microcontroler\\1_Application\\button\\button_0.c"
+    },
+    "name": "Button_Hold_0",
+    "origin": "project_file",
+    "scope": null
+  },
+  {
+    "ID": "c:@F@Button_HoldAccel_0",
+    "What": "Function",
+    "defdec": "Def",
+    "display": "unsigned char Button_HoldAccel_0(int *)",
+    "location": {
+      "column": "15",
+      "line": "74",
+      "path": "C:\\Users\\Admin\\OneDrive\\Libraries\\C&C++\\embedded_C99\\Microcontroler\\1_Application\\button\\button_0.c"
+    },
+    "name": "Button_HoldAccel_0",
+    "origin": "project_file",
+    "scope": null
+  },
+  {
+    "ID": "c:@F@Button_SetStatus_0",
+    "What": "Function",
+    "defdec": "Def",
+    "display": "void Button_SetStatus_0(int, unsigned char)",
+    "location": {
+      "column": "6",
+      "line": "92",
+      "path": "C:\\Users\\Admin\\OneDrive\\Libraries\\C&C++\\embedded_C99\\Microcontroler\\1_Application\\button\\button_0.c"
+    },
+    "name": "Button_SetStatus_0",
+    "origin": "project_file",
+    "scope": null
+  },
+  {
+    "ID": "c:@F@main",
+    "What": "Function",
+    "defdec": "Def",
+    "display": "void main(void)",
+    "location": {
+      "column": "6",
+      "line": "12",
+      "path": "C:\\Users\\Admin\\OneDrive\\Libraries\\C&C++\\embedded_C99\\Microcontroler\\STM32F10x\\test_lib\\stm32f103c8t6\\source\\main.c"
+    },
+    "name": "main",
+    "origin": "project_file",
+    "scope": null
+  }
+]

@@ -1,0 +1,264 @@
+###############################################################################
+#
+# IAR ELF Linker V8.40.1.212/W32 for ARM                  17/Sep/2021  14:19:58
+# Copyright 2007-2019 IAR Systems AB.
+#
+#    Output file  =
+#        C:\Users\jfavl\OneDrive\Libraries\C&C++\embedded_C99\Microcontroler\STM32F10x\test_lib\stm32f103c8t6\Debug\Exe\tets.out
+#    Map file     =
+#        C:\Users\jfavl\OneDrive\Libraries\C&C++\embedded_C99\Microcontroler\STM32F10x\test_lib\stm32f103c8t6\Debug\List\tets.map
+#    Command line =
+#        -f C:\Users\jfavl\AppData\Local\Temp\EWDC11.tmp
+#        (C:\Users\jfavl\OneDrive\Libraries\C&C++\embedded_C99\Microcontroler\STM32F10x\test_lib\stm32f103c8t6\Debug\Obj\button_0.o
+#        C:\Users\jfavl\OneDrive\Libraries\C&C++\embedded_C99\Microcontroler\STM32F10x\test_lib\stm32f103c8t6\Debug\Obj\button_1.o
+#        C:\Users\jfavl\OneDrive\Libraries\C&C++\embedded_C99\Microcontroler\STM32F10x\test_lib\stm32f103c8t6\Debug\Obj\button_2.o
+#        C:\Users\jfavl\OneDrive\Libraries\C&C++\embedded_C99\Microcontroler\STM32F10x\test_lib\stm32f103c8t6\Debug\Obj\button_3.o
+#        C:\Users\jfavl\OneDrive\Libraries\C&C++\embedded_C99\Microcontroler\STM32F10x\test_lib\stm32f103c8t6\Debug\Obj\button_4.o
+#        C:\Users\jfavl\OneDrive\Libraries\C&C++\embedded_C99\Microcontroler\STM32F10x\test_lib\stm32f103c8t6\Debug\Obj\button_5.o
+#        C:\Users\jfavl\OneDrive\Libraries\C&C++\embedded_C99\Microcontroler\STM32F10x\test_lib\stm32f103c8t6\Debug\Obj\button_6.o
+#        C:\Users\jfavl\OneDrive\Libraries\C&C++\embedded_C99\Microcontroler\STM32F10x\test_lib\stm32f103c8t6\Debug\Obj\button_7.o
+#        C:\Users\jfavl\OneDrive\Libraries\C&C++\embedded_C99\Microcontroler\STM32F10x\test_lib\stm32f103c8t6\Debug\Obj\main.o
+#        --no_out_extension -o
+#        C:\Users\jfavl\OneDrive\Libraries\C&C++\embedded_C99\Microcontroler\STM32F10x\test_lib\stm32f103c8t6\Debug\Exe\tets.out
+#        --map
+#        C:\Users\jfavl\OneDrive\Libraries\C&C++\embedded_C99\Microcontroler\STM32F10x\test_lib\stm32f103c8t6\Debug\List\tets.map
+#        --config "C:\Program Files (x86)\IAR Systems\Embedded Workbench
+#        8.3\arm\config\linker\ST\stm32f103x8.icf" --semihosting --entry
+#        __iar_program_start --vfe --text_out locale)
+#
+###############################################################################
+
+*******************************************************************************
+*** RUNTIME MODEL ATTRIBUTES
+***
+
+CppFlavor       = *
+__SystemLibrary = DLib
+__dlib_version  = 6
+
+
+*******************************************************************************
+*** HEAP SELECTION
+***
+
+The basic heap was selected because no calls to memory allocation
+functions were found in the application outside of system library
+functions, and there are calls to deallocation functions in the
+application.
+
+
+*******************************************************************************
+*** PLACEMENT SUMMARY
+***
+
+"A0":  place at address 0x800'0000 { ro section .intvec };
+"P1":  place in [from 0x800'0000 to 0x800'ffff] { ro };
+define block CSTACK with size = 2K, alignment = 8 { };
+define block HEAP with size = 2K, alignment = 8 { };
+"P2":  place in [from 0x2000'0000 to 0x2000'4fff] {
+          rw, block CSTACK, block HEAP };
+
+No sections matched the following patterns:
+
+  rw  in "P2"
+
+
+  Section   Kind          Address   Size  Object
+  -------   ----          -------   ----  ------
+"A0":                               0x40
+  .intvec   ro code    0x800'0000   0x40  vector_table_M.o [3]
+                     - 0x800'0040   0x40
+
+"P1":                               0x54
+  .text     ro code    0x800'0040   0x1e  cmain.o [3]
+  .text     ro code    0x800'005e    0x4  low_level_init.o [2]
+  .text     ro code    0x800'0062    0x2  main.o [1]
+  .text     ro code    0x800'0064    0x4  exit.o [2]
+  .text     ro code    0x800'0068    0xa  cexit.o [3]
+  .text     ro code    0x800'0072    0x2  vector_table_M.o [3]
+  .text     ro code    0x800'0074   0x14  exit.o [4]
+  .text     ro code    0x800'0088    0xc  cstartup_M.o [3]
+                     - 0x800'0094   0x54
+
+"P2":                              0x800
+  CSTACK              0x2000'0000  0x800  <Block>
+    CSTACK  uninit    0x2000'0000  0x800  <Block tail>
+                    - 0x2000'0800  0x800
+
+Absolute sections, part 1 of 19:    0x1c
+  .noinit   uninit    0x4001'0800   0x1c  main.o [1]
+                    - 0x4001'081c   0x1c
+
+Absolute sections, part 2 of 19:    0x1c
+  .noinit   uninit    0x4001'0c00   0x1c  main.o [1]
+                    - 0x4001'0c1c   0x1c
+
+Absolute sections, part 3 of 19:    0x1c
+  .noinit   uninit    0x4001'1000   0x1c  main.o [1]
+                    - 0x4001'101c   0x1c
+
+Absolute sections, part 4 of 19:    0x1c
+  .noinit   uninit    0x4001'1400   0x1c  main.o [1]
+                    - 0x4001'141c   0x1c
+
+Absolute sections, part 5 of 19:    0x1c
+  .noinit   uninit    0x4001'1800   0x1c  main.o [1]
+                    - 0x4001'181c   0x1c
+
+Absolute sections, part 6 of 19:    0x50
+  .noinit   uninit    0x4001'2400   0x50  main.o [1]
+                    - 0x4001'2450   0x50
+
+Absolute sections, part 7 of 19:    0x50
+  .noinit   uninit    0x4001'2800   0x50  main.o [1]
+                    - 0x4001'2850   0x50
+
+Absolute sections, part 8 of 19:    0x28
+  .noinit   uninit    0x4002'1000   0x28  main.o [1]
+                    - 0x4002'1028   0x28
+
+Absolute sections, part 9 of 19:   0x244
+  .noinit   uninit    0x4221'0000  0x244  main.o [1]
+                    - 0x4221'0244  0x244
+
+Absolute sections, part 10 of 19:  0x244
+  .noinit   uninit    0x4221'8000  0x244  main.o [1]
+                    - 0x4221'8244  0x244
+
+Absolute sections, part 11 of 19:  0x244
+  .noinit   uninit    0x4222'0000  0x244  main.o [1]
+                    - 0x4222'0244  0x244
+
+Absolute sections, part 12 of 19:  0x244
+  .noinit   uninit    0x4222'8000  0x244  main.o [1]
+                    - 0x4222'8244  0x244
+
+Absolute sections, part 13 of 19:  0x244
+  .noinit   uninit    0x4223'0000  0x244  main.o [1]
+                    - 0x4223'0244  0x244
+
+Absolute sections, part 14 of 19:  0x810
+  .noinit   uninit    0x4224'8000  0x810  main.o [1]
+                    - 0x4224'8810  0x810
+
+Absolute sections, part 15 of 19:  0x810
+  .noinit   uninit    0x4225'0000  0x810  main.o [1]
+                    - 0x4225'0810  0x810
+
+Absolute sections, part 16 of 19:  0x500
+  .noinit   uninit    0x4242'0000  0x500  main.o [1]
+                    - 0x4242'0500  0x500
+
+Absolute sections, part 17 of 19:    0x4
+  .noinit   uninit    0xe000'e008    0x4  main.o [1]
+                    - 0xe000'e00c    0x4
+
+Absolute sections, part 18 of 19:   0x10
+  .noinit   uninit    0xe000'e010   0x10  main.o [1]
+                    - 0xe000'e020   0x10
+
+Absolute sections, part 19 of 19:  0xe04
+  .noinit   uninit    0xe000'e100  0xe04  main.o [1]
+                    - 0xe000'ef04  0xe04
+
+Unused ranges:
+
+         From           To    Size
+         ----           --    ----
+   0x800'0094   0x800'ffff  0xff6c
+  0x2000'0800  0x2000'4fff  0x4800
+
+
+
+*******************************************************************************
+*** MODULE SUMMARY
+***
+
+    Module            ro code  rw data  rw data
+                                         (abs)
+    ------            -------  -------  -------
+command line/config:
+    -------------------------------------------
+    Total:
+
+C:\Users\jfavl\OneDrive\Libraries\C&C++\embedded_C99\Microcontroler\STM32F10x\test_lib\stm32f103c8t6\Debug\Obj: [1]
+    main.o                  2            12'256
+    -------------------------------------------
+    Total:                  2            12'256
+
+dl7M_tln.a: [2]
+    exit.o                  4
+    low_level_init.o        4
+    -------------------------------------------
+    Total:                  8
+
+rt7M_tl.a: [3]
+    cexit.o                10
+    cmain.o                30
+    cstartup_M.o           12
+    vector_table_M.o       66
+    -------------------------------------------
+    Total:                118
+
+shb_l.a: [4]
+    exit.o                 20
+    -------------------------------------------
+    Total:                 20
+
+    Linker created               2'048
+-----------------------------------------------
+    Grand Total:          148    2'048   12'256
+
+
+*******************************************************************************
+*** ENTRY LIST
+***
+
+Entry                     Address   Size  Type      Object
+-----                     -------   ----  ----      ------
+?main                  0x800'0041         Code  Gb  cmain.o [3]
+ADC1                  0x4001'2400   0x50  Data  Gb  main.o [1]
+ADC1_BITBAND          0x4224'8000  0x810  Data  Gb  main.o [1]
+ADC2                  0x4001'2800   0x50  Data  Gb  main.o [1]
+ADC2_BITBAND          0x4225'0000  0x810  Data  Gb  main.o [1]
+CSTACK$$Base          0x2000'0000          --   Gb  - Linker created -
+CSTACK$$Limit         0x2000'0800          --   Gb  - Linker created -
+GPIOA                 0x4001'0800   0x1c  Data  Gb  main.o [1]
+GPIOA_BITBAND         0x4221'0000  0x244  Data  Gb  main.o [1]
+GPIOB                 0x4001'0c00   0x1c  Data  Gb  main.o [1]
+GPIOB_BITBAND         0x4221'8000  0x244  Data  Gb  main.o [1]
+GPIOC                 0x4001'1000   0x1c  Data  Gb  main.o [1]
+GPIOC_BITBAND         0x4222'0000  0x244  Data  Gb  main.o [1]
+GPIOD                 0x4001'1400   0x1c  Data  Gb  main.o [1]
+GPIOD_BITBAND         0x4222'8000  0x244  Data  Gb  main.o [1]
+GPIOE                 0x4001'1800   0x1c  Data  Gb  main.o [1]
+GPIOE_BITBAND         0x4223'0000  0x244  Data  Gb  main.o [1]
+NVIC                  0xe000'e100  0xe04  Data  Gb  main.o [1]
+RCC                   0x4002'1000   0x28  Data  Gb  main.o [1]
+RCC_BITBAND           0x4242'0000  0x500  Data  Gb  main.o [1]
+Region$$Table$$Base           0x0          --   Gb  - Linker created -
+Region$$Table$$Limit          0x0          --   Gb  - Linker created -
+SCB_ACTLR             0xe000'e008    0x4  Data  Gb  main.o [1]
+STK                   0xe000'e010   0x10  Data  Gb  main.o [1]
+__cmain                0x800'0041         Code  Gb  cmain.o [3]
+__exit                 0x800'0075   0x14  Code  Gb  exit.o [4]
+__iar_program_start    0x800'0089         Code  Gb  cstartup_M.o [3]
+__low_level_init       0x800'005f    0x4  Code  Gb  low_level_init.o [2]
+__vector_table         0x800'0000         Data  Gb  vector_table_M.o [3]
+_call_main             0x800'004d         Code  Gb  cmain.o [3]
+_exit                  0x800'0069         Code  Gb  cexit.o [3]
+_main                  0x800'005b         Code  Gb  cmain.o [3]
+exit                   0x800'0065    0x4  Code  Gb  exit.o [2]
+main                   0x800'0063    0x2  Code  Gb  main.o [1]
+
+
+[1] = C:\Users\jfavl\OneDrive\Libraries\C&C++\embedded_C99\Microcontroler\STM32F10x\test_lib\stm32f103c8t6\Debug\Obj
+[2] = dl7M_tln.a
+[3] = rt7M_tl.a
+[4] = shb_l.a
+
+    148 bytes of readonly  code memory
+  2'048 bytes of readwrite data memory (+ 12'256 absolute)
+
+Errors: none
+Warnings: none

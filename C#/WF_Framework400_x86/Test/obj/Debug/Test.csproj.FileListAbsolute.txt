@@ -1,0 +1,12 @@
+C:\Users\jfavl\OneDrive\Libraries\C#\WF_Framework400_x86\Test\bin\Debug\Test.exe
+C:\Users\jfavl\OneDrive\Libraries\C#\WF_Framework400_x86\Test\bin\Debug\Test.pdb
+C:\Users\jfavl\OneDrive\Libraries\C#\WF_Framework400_x86\Test\bin\Debug\FileManager.dll
+C:\Users\jfavl\OneDrive\Libraries\C#\WF_Framework400_x86\Test\bin\Debug\FileManager.pdb
+C:\Users\jfavl\OneDrive\Libraries\C#\WF_Framework400_x86\Test\obj\Debug\Test.csproj.AssemblyReference.cache
+C:\Users\jfavl\OneDrive\Libraries\C#\WF_Framework400_x86\Test\obj\Debug\Test.Form1.resources
+C:\Users\jfavl\OneDrive\Libraries\C#\WF_Framework400_x86\Test\obj\Debug\Test.Properties.Resources.resources
+C:\Users\jfavl\OneDrive\Libraries\C#\WF_Framework400_x86\Test\obj\Debug\Test.csproj.GenerateResource.cache
+C:\Users\jfavl\OneDrive\Libraries\C#\WF_Framework400_x86\Test\obj\Debug\Test.csproj.CoreCompileInputs.cache
+C:\Users\jfavl\OneDrive\Libraries\C#\WF_Framework400_x86\Test\obj\Debug\Test.csproj.CopyComplete
+C:\Users\jfavl\OneDrive\Libraries\C#\WF_Framework400_x86\Test\obj\Debug\Test.exe
+C:\Users\jfavl\OneDrive\Libraries\C#\WF_Framework400_x86\Test\obj\Debug\Test.pdb

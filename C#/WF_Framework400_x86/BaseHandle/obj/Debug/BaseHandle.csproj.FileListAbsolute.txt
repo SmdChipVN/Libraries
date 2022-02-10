@@ -1,0 +1,6 @@
+C:\Users\jfavl\OneDrive\Libraries\C#\WF_Framework400_x86\BaseHandle\bin\Debug\BaseHandle.dll
+C:\Users\jfavl\OneDrive\Libraries\C#\WF_Framework400_x86\BaseHandle\bin\Debug\BaseHandle.pdb
+C:\Users\jfavl\OneDrive\Libraries\C#\WF_Framework400_x86\BaseHandle\obj\Debug\BaseHandle.csproj.AssemblyReference.cache
+C:\Users\jfavl\OneDrive\Libraries\C#\WF_Framework400_x86\BaseHandle\obj\Debug\BaseHandle.csproj.CoreCompileInputs.cache
+C:\Users\jfavl\OneDrive\Libraries\C#\WF_Framework400_x86\BaseHandle\obj\Debug\BaseHandle.dll
+C:\Users\jfavl\OneDrive\Libraries\C#\WF_Framework400_x86\BaseHandle\obj\Debug\BaseHandle.pdb

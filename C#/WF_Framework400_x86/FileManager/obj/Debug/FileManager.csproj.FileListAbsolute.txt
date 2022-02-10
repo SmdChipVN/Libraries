@@ -1,0 +1,7 @@
+C:\Users\jfavl\OneDrive\Libraries\C#\WF_Framework400_x86\FileManager\obj\Debug\FileManager.Properties.Resources.resources
+C:\Users\jfavl\OneDrive\Libraries\C#\WF_Framework400_x86\FileManager\obj\Debug\FileManager.csproj.GenerateResource.cache
+C:\Users\jfavl\OneDrive\Libraries\C#\WF_Framework400_x86\FileManager\obj\Debug\FileManager.csproj.CoreCompileInputs.cache
+C:\Users\jfavl\OneDrive\Libraries\C#\WF_Framework400_x86\FileManager\bin\Debug\FileManager.dll
+C:\Users\jfavl\OneDrive\Libraries\C#\WF_Framework400_x86\FileManager\bin\Debug\FileManager.pdb
+C:\Users\jfavl\OneDrive\Libraries\C#\WF_Framework400_x86\FileManager\obj\Debug\FileManager.dll
+C:\Users\jfavl\OneDrive\Libraries\C#\WF_Framework400_x86\FileManager\obj\Debug\FileManager.pdb
